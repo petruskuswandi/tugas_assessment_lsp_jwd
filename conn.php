@@ -1,8 +1,8 @@
-<?php 
+<?php
 
 $host = "localhost"; // Ganti dengan nama host MySQL Anda
-$username = "mysql"; // Ganti dengan nama pengguna MySQL Anda
-$password = "root"; // Ganti dengan kata sandi MySQL Anda
+$username = "root"; // Ganti dengan nama pengguna MySQL Anda
+$password = ""; // Ganti dengan kata sandi MySQL Anda
 $database = "vsga"; // Ganti dengan nama database yang Anda gunakan
 
 $koneksi = mysqli_connect($host, $username, $password, $database);
